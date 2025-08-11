@@ -3,7 +3,7 @@ import Prism from 'prismjs'
 
 import 'prismjs/themes/prism-tomorrow.css';
 import '../CodeEditor.css'
-import { saveProgress } from '../Api'
+import { saveProgress } from './Api'
 
 function createRunnerWorkerURL() {
   const workerCode = `

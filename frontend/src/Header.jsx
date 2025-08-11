@@ -1,7 +1,7 @@
 import { FaRegUserCircle, FaRegMoon } from "react-icons/fa";
 import { ImSun } from "react-icons/im";
 import { useState, useEffect } from "react";
-import { selectId, saveId } from "../redux/authSlice";
+import { selectId, saveId } from "./redux/authSlice";
 import { useSelector } from "react-redux";
 import "../globals.css";
 

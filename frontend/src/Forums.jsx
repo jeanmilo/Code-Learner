@@ -1,7 +1,7 @@
-import { fetchForumPost, fetchRepliesFromPost, uploadForumPost, replyToForumPost } from "../Api";
+import { fetchForumPost, fetchRepliesFromPost, uploadForumPost, replyToForumPost } from "./Api";
 import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import { selectUserDetails } from "../redux/userSlice";
+import { selectUserDetails } from "./redux/userSlice";
 
 export default function Forums() {
   const [isReplying, setIsReplying] = useState(false);

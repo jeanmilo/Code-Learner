@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "../login.css";
-import { login } from "../Api.jsx";
-import { fetchUsers } from "../Api.jsx";
+import { login } from "./Api.jsx";
+import { fetchUsers } from "./Api.jsx";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { saveId } from "../redux/authSlice";
-import { saveUserDetails } from "../redux/userSlice.js";
+import { saveId } from "./redux/authSlice.js";
+import { saveUserDetails } from "./redux/userSlice.js";
 
 export default function LoginPage() {
   const navigate = useNavigate();

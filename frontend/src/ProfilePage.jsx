@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { selectId, saveId } from "../redux/authSlice";
-import { selectUserDetails } from "../redux/userSlice";
+import { selectId, saveId } from "./redux/authSlice.js";
+import { selectUserDetails } from "./redux/userSlice.js";
 import defaultProfile from "../Profile.png";
-import { generateURL, uploadURL } from "../Api";
-import { saveUserDetails } from "../redux/userSlice.js";
+import { generateURL, uploadURL } from "./Api.jsx";
+import { saveUserDetails } from "./redux/userSlice.js";
 import { useNavigate } from "react-router-dom";
 
 function ProfilePage() {

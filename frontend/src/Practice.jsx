@@ -3,7 +3,7 @@ import CodeEditor from "./CodeEditor.jsx";
 // import { fetchLessons } from "../Api";
 
 import "../globals.css";
-import problems from "../resources/practiceProblems.json";
+import problems from "./resources/practiceProblems.json";
 
 
 export default function Code() {
